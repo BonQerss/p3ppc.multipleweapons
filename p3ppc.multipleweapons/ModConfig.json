@@ -1,0 +1,25 @@
+{
+  "ModId": "P3PPC.MultipleWeapons",
+  "ModName": "Multiple Weapons",
+  "ModAuthor": "NORADEX",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Lets both heroes use more weapon types with matching models and moves in battle.",
+  "ModDll": "p3ppc.multipleweapons.dll",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "x64/p3ppc.multipleweapons.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "reloaded.sharedlib.hooks",
+    "Reloaded.Memory.SigScan.ReloadedII"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "P3P.exe"
+  ],
+  "ProjectUrl": ""
+}

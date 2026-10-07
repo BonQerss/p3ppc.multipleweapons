@@ -20,32 +20,32 @@ namespace p3ppc.multipleweapons.Configuration
         [Category("Field Attack Range")]
         [DisplayName("2H Sword Acquisition Range")]
         [Description("Sets the two-handed sword field attack range.")]
-        [DefaultValue(360.0f)]
-        public float TwoHandedSwordAcquisitionRange { get; set; } = 360.0f;
+        [DefaultValue(420.0f)]
+        public float TwoHandedSwordAcquisitionRange { get; set; } = 420.0f;
 
         [Category("Field Attack Range")]
         [DisplayName("Axe Acquisition Range")]
         [Description("Sets the axe field attack range.")]
-        [DefaultValue(360.0f)]
-        public float AxeAcquisitionRange { get; set; } = 360.0f;
+        [DefaultValue(330.0f)]
+        public float AxeAcquisitionRange { get; set; } = 330.0f;
 
         [Category("Field Attack Range")]
         [DisplayName("Bow Acquisition Range")]
         [Description("Sets the bow field attack range.")]
-        [DefaultValue(650.0f)]
-        public float BowAcquisitionRange { get; set; } = 650.0f;
+        [DefaultValue(1080.0f)]
+        public float BowAcquisitionRange { get; set; } = 1080.0f;
 
         [Category("Field Attack Range")]
         [DisplayName("Fists Acquisition Range")]
         [Description("Sets the fists field attack range.")]
-        [DefaultValue(220.0f)]
-        public float FistsAcquisitionRange { get; set; } = 220.0f;
+        [DefaultValue(260.0f)]
+        public float FistsAcquisitionRange { get; set; } = 260.0f;
 
         [Category("Field Attack Range")]
         [DisplayName("Spear / Naginata Acquisition Range")]
         [Description("Sets the spear and naginata field attack range.")]
-        [DefaultValue(360.0f)]
-        public float SpearNaginataAcquisitionRange { get; set; } = 360.0f;
+        [DefaultValue(480.0f)]
+        public float SpearNaginataAcquisitionRange { get; set; } = 480.0f;
 
         [Category("Field Attack Width")]
         [DisplayName("1H Sword / Rapier Attack Arc")]
@@ -62,20 +62,20 @@ namespace p3ppc.multipleweapons.Configuration
         [Category("Field Attack Width")]
         [DisplayName("Axe Attack Arc")]
         [Description("Sets the axe attack arc.")]
-        [DefaultValue(240.0f)]
-        public float AxeAttackArcDegrees { get; set; } = 240.0f;
+        [DefaultValue(120.0f)]
+        public float AxeAttackArcDegrees { get; set; } = 120.0f;
 
         [Category("Field Attack Width")]
         [DisplayName("Bow Attack Arc")]
         [Description("Sets the bow attack arc.")]
-        [DefaultValue(90.0f)]
-        public float BowAttackArcDegrees { get; set; } = 90.0f;
+        [DefaultValue(45.0f)]
+        public float BowAttackArcDegrees { get; set; } = 45.0f;
 
         [Category("Field Attack Width")]
         [DisplayName("Fists Attack Arc")]
         [Description("Sets the fists attack arc.")]
-        [DefaultValue(120.0f)]
-        public float FistsAttackArcDegrees { get; set; } = 120.0f;
+        [DefaultValue(90.0f)]
+        public float FistsAttackArcDegrees { get; set; } = 90.0f;
 
         [Category("Field Attack Width")]
         [DisplayName("Spear / Naginata Attack Arc")]
@@ -92,26 +92,26 @@ namespace p3ppc.multipleweapons.Configuration
         [Category("Field Attack Speed")]
         [DisplayName("2H Sword Attack Speed")]
         [Description("Sets the field attack speed.")]
-        [DefaultValue(0.90)]
-        public double TwoHandedSwordAttackSpeed { get; set; } = 0.90;
+        [DefaultValue(1.00)]
+        public double TwoHandedSwordAttackSpeed { get; set; } = 1.00;
 
         [Category("Field Attack Speed")]
         [DisplayName("Axe Attack Speed")]
         [Description("Sets the axe field attack speed.")]
-        [DefaultValue(0.80)]
-        public double AxeAttackSpeed { get; set; } = 0.80;
+        [DefaultValue(1.00)]
+        public double AxeAttackSpeed { get; set; } = 1.00;
 
         [Category("Field Attack Speed")]
         [DisplayName("Bow Attack Speed")]
         [Description("Sets the field attack speed.")]
-        [DefaultValue(0.90)]
-        public double BowAttackSpeed { get; set; } = 0.90;
+        [DefaultValue(1.00)]
+        public double BowAttackSpeed { get; set; } = 1.00;
 
         [Category("Field Attack Speed")]
         [DisplayName("Fists Attack Speed")]
         [Description("Sets the fists field attack speed.")]
-        [DefaultValue(1.35)]
-        public double FistsAttackSpeed { get; set; } = 1.35;
+        [DefaultValue(1.00)]
+        public double FistsAttackSpeed { get; set; } = 1.00;
 
         [Category("Field Attack Speed")]
         [DisplayName("Spear / Naginata Attack Speed")]
